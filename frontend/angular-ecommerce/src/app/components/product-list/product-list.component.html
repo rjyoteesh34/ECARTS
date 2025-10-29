@@ -10,7 +10,9 @@
                     <div class="product-box">
 
                         <a routerLink="/products/{{product.id}}">
-                            <img src="{{ product.imageUrl }}" class="img-responsive">
+                            <div class="product-image-container">
+                                <img [src]="product.imageUrl" [alt]="product.name" class="img-responsive" (error)="handleImageError($event)">
+                            </div>
                         </a>
 
                         <a routerLink="/products/{{product.id}}">

@@ -10,9 +10,9 @@ import { ProductCategory } from '../model/product-category';
 })
 export class ProductService {
 
-  private baseUrl = "http://localhost:8090/api/products";
+  private baseUrl = "http://localhost:8080/api/products";
 
-  private categoryUrl = "http://localhost:8090/api/product-category";
+  private categoryUrl = "http://localhost:8080/api/product-category";
 
 
   // httpClient will be injected automatically by Angular's dependency injection
@@ -33,7 +33,10 @@ export class ProductService {
     // need to build the URL based on the category id
     const searchUrl = `${this.baseUrl}/search/findByCategoryId?id=${categoryId}`
 
-    return this.getProducts(searchUrl);
+    return this.httpClient.get<GetResponseProducts>(searchUrl)
+      .pipe(
+        map(response => response._embedded.products)
+      );
 
   }
 

@@ -26,6 +26,9 @@ export class ProductListComponent implements OnInit {
 
   constructor(private productService: ProductService, private cartService: CartService, private route: ActivatedRoute) { }
 
+  handleImageError(event: any) {
+    event.target.src = '/assets/images/products/placeholder.png';
+  }
 
   // similar to @PostConstruct of Spring
   ngOnInit(): void {
@@ -118,7 +121,7 @@ export class ProductListComponent implements OnInit {
 
     // do the real work
     const theCartItem = new CartItem(product);
-    
+
     this.cartService.addToCart(theCartItem);
   }
 
