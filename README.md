@@ -1,4 +1,4 @@
-🧾 Description
+### Description
 
 ECARTS is a dynamic e-commerce web application developed using Java, JSP, Servlets, MySQL, HTML, CSS, and JavaScript.
 It provides a digital shopping platform where users can browse products, add them to their cart, and securely place orders.
@@ -6,7 +6,8 @@ The system also includes an admin panel for managing product listings, categorie
 
 This project aims to replicate the real-world functionality of an online store with a clean, responsive, and user-friendly interface.
 
-🌟 Features
+
+### Features
 
 User Authentication — Secure login and signup for users and admins.
 
@@ -24,7 +25,9 @@ Responsive Design — Optimized for desktop and mobile devices.
 
 Database Integration — Real-time synchronization with MySQL for storing product, order, and user data.
 
-🧰 Technologies Used
+
+
+### Technologies Used
 
 Frontend: HTML, CSS, JavaScript
 Backend: Java, JSP, Servlet
@@ -32,16 +35,18 @@ Database: MySQL
 Server: Apache Tomcat
 IDE: Eclipse / IntelliJ IDEA
 
-🖼️ Screenshots
-<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/7b32a16c-ecarts-home.png" /> <img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/8f64b11a-ecarts-admin.png" /> <img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/9a3d0f3b-ecarts-cart.png" /> <img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/2d9e5b6d-ecarts-orders.png" />
 
-(You can replace the above links with your actual screenshots once uploaded to GitHub.)
+# Screenshots
+<img width="1887" height="638" alt="Screenshot 2025-10-29 115050" src="https://github.com/user-attachments/assets/2092d97e-ce2b-42b5-a62e-f7cff685a974" />
 
-⚙️ Installation and Usage
+
+
+
+### Installation and Usage
 
 Clone the repository:
 
-git clone https://github.com/<your-username>/ECARTS.git
+git clone https://github.com/rjyoteesh34/ECARTS
 
 
 Setup the MySQL Database:
@@ -68,15 +73,18 @@ Open your browser and go to:
 
 http://localhost:8080/ECARTS/
 
-👩‍💻 Contributors
 
-Your Name
 
-[Additional Contributor Name (if any)]
 
-📌 Future Enhancements
+###Contributors
 
-Integration with online payment gateway (e.g., PayPal, Razorpay).
+R.JYOTEESH
+
+
+
+###Future Enhancements
+
+Integration with online payment gateway 
 
 Product review and rating system.
 
